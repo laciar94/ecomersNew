@@ -112,7 +112,7 @@ const counterShops = document.querySelector(".count");
         items.innerHTML= html
         total()
         counter () 
-        countShopProduct()
+    
     }
     
     function productsOnHtml(productos){
