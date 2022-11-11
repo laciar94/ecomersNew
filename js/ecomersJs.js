@@ -44,7 +44,7 @@ const shop = document.querySelector(".shopBag");
 const items = document.querySelector(".shopItems")
 const totalShop = document.querySelector(".totalShop");
 const productContent = document.querySelector(".content4");
-
+const counterShops = document.querySelector(".count");
 
 
     let productos = [
@@ -112,7 +112,7 @@ const productContent = document.querySelector(".content4");
         items.innerHTML= html
         total()
         counter () 
-      
+        countShopProduct()
     }
     
     function productsOnHtml(productos){
